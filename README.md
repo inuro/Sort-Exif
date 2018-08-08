@@ -4,7 +4,7 @@ Copy image/movie files recursively sorting by EXIF:DateTimeOriginal
 If EXIF:DateTimeOriginal isn't available use other oldest date instead.  
 
 ## Dependencies
-- Exiftools ( https://smarnach.github.io/pyexiftool/ )  
+- Exiftool ( https://smarnach.github.io/pyexiftool/ )  
 
 ## Usage
 ```
