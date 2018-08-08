@@ -1,2 +1,13 @@
 # Sort-Exif
 Image/Movie file sorter using Exiftool
+Copy image/movie files recursively sorting by EXIF:DateTimeOriginal
+If EXIF:DateTimeOriginal isn't available use other oldest date instead.
+Depends on Exiftools ( https://smarnach.github.io/pyexiftool/ )
+
+## [usage]
+```
+$ python sort-exif.py source_dir dest_dir
+```
+```
+$ python sort-exif.py photos_from photos_to
+```
