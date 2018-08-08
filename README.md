@@ -8,7 +8,7 @@ If EXIF:DateTimeOriginal isn't available use other oldest date instead.
 
 ## Usage
 ```
-$ python sort-exif.py source_dir dest_dir
+$ python sort-exif.py <source_dir> <dest_dir>
 ```
 ### example
 ```
